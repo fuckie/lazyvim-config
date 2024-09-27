@@ -67,4 +67,16 @@ return {
 			})
 		end,
 	},
+	{
+		"echasnovski/mini.pairs",
+		opts = {
+			modes = { command = false }
+		}
+	},
+	{
+		'brenoprata10/nvim-highlight-colors',
+		config = function()
+			require("nvim-highlight-colors").setup {}
+		end
+	}
 }
